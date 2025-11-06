@@ -26,9 +26,112 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1762263997913,
+  "startTime": 1762445926931,
   "success": false,
   "testResults": [
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 5,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1762445927905,
+        "runtime": 911,
+        "slow": false,
+        "start": 1762445926994
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\Usuario\\Desktop\\FullStack\\ejercicio_API_REST_films_con_test\\test\\films.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Films API routes"
+          ],
+          "duration": 308,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Films API routes should fetch a movie by title",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 2,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should fetch a movie by title"
+        },
+        {
+          "ancestorTitles": [
+            "Films API routes"
+          ],
+          "duration": 185,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Films API routes should return 404 for a non-existent movie",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 2,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should return 404 for a non-existent movie"
+        },
+        {
+          "ancestorTitles": [
+            "Films API routes"
+          ],
+          "duration": 18,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Films API routes should add a new movie",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 2,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should add a new movie"
+        },
+        {
+          "ancestorTitles": [
+            "Films API routes"
+          ],
+          "duration": 5,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Films API routes should update an existing movie",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 2,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should update an existing movie"
+        },
+        {
+          "ancestorTitles": [
+            "Films API routes"
+          ],
+          "duration": 3,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Films API routes should delete an existing movie",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 2,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should delete an existing movie"
+        }
+      ],
+      "failureMessage": null
+    },
     {
       "leaks": false,
       "numFailingTests": 0,
@@ -37,10 +140,10 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1762263998676,
-        "runtime": 468,
+        "end": 1762445927970,
+        "runtime": 37,
         "slow": false,
-        "start": 1762263998208
+        "start": 1762445927933
       },
       "skipped": false,
       "snapshot": {
@@ -58,7 +161,7 @@
           "ancestorTitles": [
             "Environment setup"
           ],
-          "duration": 4,
+          "duration": 0,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Environment setup should have a .env file in the root directory",
@@ -73,7 +176,7 @@
           "ancestorTitles": [
             "Environment setup"
           ],
-          "duration": 8,
+          "duration": 2,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Environment setup should have API_KEY defined in the .env file",
@@ -111,112 +214,18 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testExecError": "Cannot find module '../utils/fetchFilms' from 'test/fetchFilms.test.js'",
+      "testExecError": {
+        "code": "MODULE_NOT_FOUND",
+        "hint": "",
+        "requireStack": [
+          "C:\\Users\\Usuario\\Desktop\\FullStack\\ejercicio_API_REST_films_con_test\\test\\fetchFilms.test.js"
+        ],
+        "siblingWithSimilarExtensionFound": false,
+        "moduleName": "../utils/fetchFilms",
+        "_originalMessage": "Cannot find module '../utils/fetchFilms' from 'test/fetchFilms.test.js'"
+      },
       "testFilePath": "C:\\Users\\Usuario\\Desktop\\FullStack\\ejercicio_API_REST_films_con_test\\test\\fetchFilms.test.js",
       "testResults": []
-    },
-    {
-      "leaks": false,
-      "numFailingTests": 0,
-      "numPassingTests": 5,
-      "numPendingTests": 0,
-      "numTodoTests": 0,
-      "openHandles": [],
-      "perfStats": {
-        "end": 1762263999722,
-        "runtime": 1538,
-        "slow": false,
-        "start": 1762263998184
-      },
-      "skipped": false,
-      "snapshot": {
-        "added": 0,
-        "fileDeleted": false,
-        "matched": 0,
-        "unchecked": 0,
-        "uncheckedKeys": [],
-        "unmatched": 0,
-        "updated": 0
-      },
-      "testFilePath": "C:\\Users\\Usuario\\Desktop\\FullStack\\ejercicio_API_REST_films_con_test\\test\\films.test.js",
-      "testResults": [
-        {
-          "ancestorTitles": [
-            "Films API routes"
-          ],
-          "duration": 438,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "Films API routes should fetch a movie by title",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 2,
-          "retryReasons": [],
-          "status": "passed",
-          "title": "should fetch a movie by title"
-        },
-        {
-          "ancestorTitles": [
-            "Films API routes"
-          ],
-          "duration": 282,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "Films API routes should return 404 for a non-existent movie",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 2,
-          "retryReasons": [],
-          "status": "passed",
-          "title": "should return 404 for a non-existent movie"
-        },
-        {
-          "ancestorTitles": [
-            "Films API routes"
-          ],
-          "duration": 26,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "Films API routes should add a new movie",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 2,
-          "retryReasons": [],
-          "status": "passed",
-          "title": "should add a new movie"
-        },
-        {
-          "ancestorTitles": [
-            "Films API routes"
-          ],
-          "duration": 5,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "Films API routes should update an existing movie",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 2,
-          "retryReasons": [],
-          "status": "passed",
-          "title": "should update an existing movie"
-        },
-        {
-          "ancestorTitles": [
-            "Films API routes"
-          ],
-          "duration": 4,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "Films API routes should delete an existing movie",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 2,
-          "retryReasons": [],
-          "status": "passed",
-          "title": "should delete an existing movie"
-        }
-      ],
-      "failureMessage": null
     }
   ],
   "wasInterrupted": false

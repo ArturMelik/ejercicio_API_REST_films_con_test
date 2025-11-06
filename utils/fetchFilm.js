@@ -27,4 +27,6 @@ try {
 
 module.exports =  fetchFilm;
 
-fetchFilm("Titanic").then(data=>console.log(data));
+
+//Son pruebas
+// fetchFilm("Titanic").then(data=>console.log(data));

@@ -15,7 +15,6 @@ app.listen(port, () => {
 
 module.exports = app;
 
-console.log("API Key:", process.env.API_KEY);
 
 
 

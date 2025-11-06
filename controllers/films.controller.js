@@ -16,15 +16,18 @@ const getFilmTitle = async (req, res) => {
      res.status(400).json({message:`ERROR: ${error.stack}`});
   }
 };
+
+
+
 const postFilm = async (req, res) => {
     try {
-    const { Title } = req.body; // obtienes el título desde el body
-    if (!Title) {
+    const { title } = req.body; // obtienes el título desde el body
+    if (!title) {
       return res.status(400).json({ msj: "Falta el campo Title" });
     }
 
     // Simulas que se ha guardado
-    res.status(200).json({ message: `Se ha guardado ${Title}` });
+    res.status(200).json({ message: `Se ha guardado ${title}` });
   } catch (error) {
     console.log(`ERROR: ${error.stack}`);
     res.status(400).json({ msj: `ERROR: ${error.stack}` });
@@ -36,10 +39,10 @@ const postFilm = async (req, res) => {
 const putFilm = (req, res) => {
     try{
       const id = req.body.id;
-      const Title = req.body.Title;
+      const title = req.body.title;
       res.status(200).json({
             id: id,
-            message: `Se ha actualizado ${Title}`
+            message: `Se ha actualizado ${title}`
         });
     }catch(error){
         console.log(`ERROR: ${error.stack}`);
